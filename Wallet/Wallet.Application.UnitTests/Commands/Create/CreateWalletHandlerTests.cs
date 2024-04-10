@@ -1,5 +1,3 @@
-using Wallet.Application.Commands.CreateWallet;
-
 namespace Wallet.Application.UnitTests.Commands.Create;
 
 public class CreateWalletHandlerTests (WalletFixture fixture) : IClassFixture<WalletFixture>

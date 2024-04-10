@@ -1,6 +1,3 @@
-using Wallet.Application.Commands.AddFunds;
-using Wallet.Domain.Enum;
-
 namespace Wallet.Application.UnitTests.Commands.AddFunds;
 
 public class AddFundsRequestValidatorTests(WalletFixture fixture) : IClassFixture<WalletFixture>

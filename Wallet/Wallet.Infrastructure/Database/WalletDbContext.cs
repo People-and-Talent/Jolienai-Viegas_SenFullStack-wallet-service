@@ -1,6 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using Wallet.Application.Shared;
-
 namespace Wallet.Infrastructure.Database;
 
 public class WalletDbContext(DbContextOptions options) : DbContext(options), IWalletDbContext

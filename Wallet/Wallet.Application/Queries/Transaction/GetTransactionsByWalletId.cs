@@ -1,7 +1,3 @@
-using MediatR;
-using Microsoft.EntityFrameworkCore;
-using Wallet.Application.Shared;
-
 namespace Wallet.Application.Queries.Transaction;
 
 public record struct GetTransactionsByWalletId(string Id) : IRequest<IEnumerable<GetTransactionsByWalletIdResponse>>;

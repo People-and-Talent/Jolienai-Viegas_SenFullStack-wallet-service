@@ -1,7 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using Wallet.Application.Commands.AddFunds;
-using Wallet.Domain.Entities;
-
 namespace Wallet.Application.UnitTests.Commands.AddFunds;
 
 public class AddFundsHandlerTests(WalletFixture fixture) : IClassFixture<WalletFixture>

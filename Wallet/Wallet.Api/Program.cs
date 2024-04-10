@@ -1,14 +1,3 @@
-using FluentValidation;
-using MediatR;
-using Wallet.Api.Extensions;
-using Wallet.Application;
-using Wallet.Application.Commands.AddFunds;
-using Wallet.Application.Commands.CreateWallet;
-using Wallet.Application.Commands.RemoveFunds;
-using Wallet.Application.Queries.Transaction;
-using Wallet.Application.Queries.Wallet;
-using Wallet.Infrastructure;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();

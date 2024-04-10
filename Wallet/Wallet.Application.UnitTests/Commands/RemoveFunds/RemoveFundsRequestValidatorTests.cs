@@ -1,6 +1,3 @@
-using Wallet.Application.Commands.RemoveFunds;
-using Wallet.Domain.Enum;
-
 namespace Wallet.Application.UnitTests.Commands.RemoveFunds;
 
 public class RemoveFundsRequestValidatorTests(WalletFixture fixture) : IClassFixture<WalletFixture>

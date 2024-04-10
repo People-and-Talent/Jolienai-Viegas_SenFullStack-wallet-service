@@ -1,10 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Wallet.Application.Shared;
-using Wallet.Infrastructure.Database;
-
-namespace Wallet.Infrastructure;
+﻿namespace Wallet.Infrastructure;
 
 public static class ConfigureServices
 {

@@ -1,6 +1,3 @@
-using FluentValidation;
-using Wallet.Application.Shared;
-
 namespace Wallet.Application.Queries.Transaction;
 
 public class GetTransactionsByWalletIdValidator : AbstractValidator<GetTransactionsByWalletId>

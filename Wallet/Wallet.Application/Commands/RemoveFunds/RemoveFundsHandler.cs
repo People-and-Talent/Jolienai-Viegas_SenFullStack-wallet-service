@@ -1,8 +1,3 @@
-using MediatR;
-using Microsoft.EntityFrameworkCore;
-using Wallet.Application.Shared;
-using Wallet.Domain.Entities;
-using Wallet.Domain.Enum;
 using Wallet.Domain.Exceptions;
 
 namespace Wallet.Application.Commands.RemoveFunds;

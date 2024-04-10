@@ -1,7 +1,4 @@
-﻿using FluentValidation;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace Wallet.Application;
+﻿namespace Wallet.Application;
 
 public static class ConfigureServices
 {

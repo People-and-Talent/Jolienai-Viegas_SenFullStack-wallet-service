@@ -1,5 +1,3 @@
-using MediatR;
-
 namespace Wallet.Application.Commands.AddFunds;
 
 public record struct AddFundsDto(decimal? Amount, string TransactionType);

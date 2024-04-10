@@ -1,1 +1,9 @@
+global using Microsoft.EntityFrameworkCore;
+global using Wallet.Application.Commands.AddFunds;
+global using Wallet.Application.Commands.CreateWallet;
+global using Wallet.Application.Commands.RemoveFunds;
+global using Wallet.Application.Queries.Wallet;
+global using Wallet.Domain.Entities;
+global using Wallet.Domain.Enum;
+global using Wallet.Domain.Exceptions;
 global using Xunit;

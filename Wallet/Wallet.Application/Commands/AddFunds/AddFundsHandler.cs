@@ -1,9 +1,3 @@
-using MediatR;
-using Microsoft.EntityFrameworkCore;
-using Wallet.Application.Shared;
-using Wallet.Domain.Entities;
-using Wallet.Domain.Enum;
-
 namespace Wallet.Application.Commands.AddFunds;
 
 public class AddFundsHandler(IWalletDbContext context) : IRequestHandler<AddFundsRequest, bool>

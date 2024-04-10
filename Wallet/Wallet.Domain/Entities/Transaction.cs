@@ -1,5 +1,3 @@
-using Wallet.Domain.Enum;
-
 namespace Wallet.Domain.Entities;
 
 public class Transaction : Audit

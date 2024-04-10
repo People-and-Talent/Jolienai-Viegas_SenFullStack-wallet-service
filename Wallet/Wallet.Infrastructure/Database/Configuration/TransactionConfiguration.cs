@@ -1,8 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Wallet.Domain.Entities;
-using Wallet.Domain.Enum;
-
 namespace Wallet.Infrastructure.Database.Configuration;
 
 public class TransactionConfiguration : IEntityTypeConfiguration<Transaction>

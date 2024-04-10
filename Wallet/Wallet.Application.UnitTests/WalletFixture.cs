@@ -1,4 +1,3 @@
-using Microsoft.EntityFrameworkCore;
 using Wallet.Infrastructure.Database;
 
 namespace Wallet.Application.UnitTests;

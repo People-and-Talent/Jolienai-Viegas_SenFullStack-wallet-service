@@ -1,8 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-using Wallet.Application.Commands.RemoveFunds;
-using Wallet.Domain.Entities;
-using Wallet.Domain.Exceptions;
-
 namespace Wallet.Application.UnitTests.Commands.RemoveFunds;
 
 public class RemoveFundsHandlerTests(WalletFixture fixture) : IClassFixture<WalletFixture>

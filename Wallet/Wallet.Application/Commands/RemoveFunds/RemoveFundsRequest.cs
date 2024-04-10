@@ -1,5 +1,3 @@
-using MediatR;
-
 namespace Wallet.Application.Commands.RemoveFunds;
 
 public record struct RemoveFundsDto(decimal? Amount, string TransactionType);

@@ -1,5 +1,3 @@
-using Microsoft.EntityFrameworkCore;
-
 namespace Wallet.Application.Shared;
 
 public interface IWalletDbContext

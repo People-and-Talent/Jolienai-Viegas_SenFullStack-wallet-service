@@ -1,5 +1,3 @@
-using Wallet.Application.Queries.Wallet;
-
 namespace Wallet.Application.UnitTests.Queries;
 
 public class WalletQueryByIdRequestValidatorTests (WalletFixture fixture) : IClassFixture<WalletFixture>

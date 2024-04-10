@@ -1,6 +1,3 @@
-using MediatR;
-using Wallet.Application.Shared;
-
 namespace Wallet.Application.Commands.CreateWallet;
 
 public class CreateWalletHandler(IWalletDbContext context) : IRequestHandler<CreateWalletRequest, Guid>

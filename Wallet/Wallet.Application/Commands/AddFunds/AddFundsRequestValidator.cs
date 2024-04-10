@@ -1,7 +1,3 @@
-using FluentValidation;
-using Wallet.Application.Shared;
-using Wallet.Domain.Enum;
-
 namespace Wallet.Application.Commands.AddFunds;
 
 public class AddFundsRequestValidator : AbstractValidator<AddFundsRequest>

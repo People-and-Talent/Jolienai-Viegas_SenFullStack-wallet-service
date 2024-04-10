@@ -1,7 +1,3 @@
-using MediatR;
-using Microsoft.EntityFrameworkCore;
-using Wallet.Application.Shared;
-
 namespace Wallet.Application.Queries.Wallet;
 
 public class GetWalletByIdHandler(IWalletDbContext context) : IRequestHandler<GetWalletByIdRequest, GetWalletByIdResponse>
