@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet.Application", "Wallet.Application\Wallet.Application.csproj", "{A1AC9AF5-78AF-4A7D-AF95-5CA0E97D95AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet.Domain", "Wallet.Domain\Wallet.Domain.csproj", "{7DD0D6BA-BA91-43D6-B0C7-9AD0FD436774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet.Infrastructure", "Wallet.Infrastructure\Wallet.Infrastructure.csproj", "{36BDDDED-9FF6-4D28-8751-C14771E41787}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{9CC28D75-A351-4282-8070-E3FF48AAA433}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8E8A8432-B529-4E7C-8DBA-0BBA19EEEA8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet.Api", "Wallet.Api\Wallet.Api.csproj", "{0F1ABF61-8E77-4C22-A68B-D43E07BF9DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet.Application.UnitTests", "Wallet.Application.UnitTests\Wallet.Application.UnitTests.csproj", "{1EF2432A-2024-473B-888B-91861292D68D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet.Api.IntegrationTests", "Wallet.Api.IntegrationTests\Wallet.Api.IntegrationTests.csproj", "{D9238C29-F0A2-4740-AEFB-054002E22C2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1AC9AF5-78AF-4A7D-AF95-5CA0E97D95AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AC9AF5-78AF-4A7D-AF95-5CA0E97D95AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AC9AF5-78AF-4A7D-AF95-5CA0E97D95AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AC9AF5-78AF-4A7D-AF95-5CA0E97D95AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD0D6BA-BA91-43D6-B0C7-9AD0FD436774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD0D6BA-BA91-43D6-B0C7-9AD0FD436774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD0D6BA-BA91-43D6-B0C7-9AD0FD436774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD0D6BA-BA91-43D6-B0C7-9AD0FD436774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BDDDED-9FF6-4D28-8751-C14771E41787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BDDDED-9FF6-4D28-8751-C14771E41787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BDDDED-9FF6-4D28-8751-C14771E41787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BDDDED-9FF6-4D28-8751-C14771E41787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1ABF61-8E77-4C22-A68B-D43E07BF9DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1ABF61-8E77-4C22-A68B-D43E07BF9DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1ABF61-8E77-4C22-A68B-D43E07BF9DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1ABF61-8E77-4C22-A68B-D43E07BF9DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF2432A-2024-473B-888B-91861292D68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF2432A-2024-473B-888B-91861292D68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF2432A-2024-473B-888B-91861292D68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF2432A-2024-473B-888B-91861292D68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9238C29-F0A2-4740-AEFB-054002E22C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9238C29-F0A2-4740-AEFB-054002E22C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9238C29-F0A2-4740-AEFB-054002E22C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9238C29-F0A2-4740-AEFB-054002E22C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1AC9AF5-78AF-4A7D-AF95-5CA0E97D95AE} = {9CC28D75-A351-4282-8070-E3FF48AAA433}
+		{7DD0D6BA-BA91-43D6-B0C7-9AD0FD436774} = {9CC28D75-A351-4282-8070-E3FF48AAA433}
+		{36BDDDED-9FF6-4D28-8751-C14771E41787} = {9CC28D75-A351-4282-8070-E3FF48AAA433}
+		{0F1ABF61-8E77-4C22-A68B-D43E07BF9DCC} = {9CC28D75-A351-4282-8070-E3FF48AAA433}
+		{1EF2432A-2024-473B-888B-91861292D68D} = {8E8A8432-B529-4E7C-8DBA-0BBA19EEEA8C}
+		{D9238C29-F0A2-4740-AEFB-054002E22C2A} = {8E8A8432-B529-4E7C-8DBA-0BBA19EEEA8C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "18628cbf-bfe6-49ab-aa3c-e657a90da31c",
+		"name": "wallet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "785559"
+	},
+	"item": [
+		{
+			"name": "wallet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"userId\": \"8286bc7c-9880-4a11-889e-9554f1cd1bb5\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5191/api/v1/wallets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5191",
+					"path": [
+						"api",
+						"v1",
+						"wallets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "wallet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5191/api/v1/wallets/fe06fe47-1d2f-4548-b1f3-8155d1c80461",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5191",
+					"path": [
+						"api",
+						"v1",
+						"wallets",
+						"fe06fe47-1d2f-4548-b1f3-8155d1c80461"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add-funds",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"amount\": 10,\n  \"transactionType\": \"Deposit\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5191/api/v1/wallets/fe06fe47-1d2f-4548-b1f3-8155d1c80461/add-funds",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5191",
+					"path": [
+						"api",
+						"v1",
+						"wallets",
+						"fe06fe47-1d2f-4548-b1f3-8155d1c80461",
+						"add-funds"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove-funds",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"amount\": 10,\n  \"transactionType\": \"Withdraw\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5191/api/v1/wallets/fe06fe47-1d2f-4548-b1f3-8155d1c80461/remove-funds",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5191",
+					"path": [
+						"api",
+						"v1",
+						"wallets",
+						"fe06fe47-1d2f-4548-b1f3-8155d1c80461",
+						"remove-funds"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5191/api/v1/wallets/fe06fe47-1d2f-4548-b1f3-8155d1c80461/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5191",
+					"path": [
+						"api",
+						"v1",
+						"wallets",
+						"fe06fe47-1d2f-4548-b1f3-8155d1c80461",
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
